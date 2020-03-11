@@ -1,6 +1,7 @@
 # Check out https://hub.docker.com/_/node to select a new base image
 #FROM node:10-slim
-FROM s390x/node
+#FROM s390x/node
+FROM node:12.16.1
 
 # Set to a non-root built-in user `node`
 USER node
